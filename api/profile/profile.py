@@ -1,6 +1,6 @@
 from typing import List
 
-from api.connect_dolphin import connect_dolphin
+from api.connect_dolphin.connect_dolphin import connect_dolphin
 from api.http_client import HttpClient
 from api.profile.types import UserProfile
 
