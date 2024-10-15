@@ -13,7 +13,7 @@ REM Переходим в виртуальное окружение
 call .\venv\Scripts\activate
 
 REM Устанавливаем зависимости
-pip install requests selenium 
+pip install requests selenium python-dotenv
 
 REM Завершаем выполнение
 echo success.
