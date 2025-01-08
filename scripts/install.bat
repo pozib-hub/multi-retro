@@ -4,6 +4,8 @@ mode con: cols=60 lines=40
 REM Автоматически определяем путь к корню
 cd /d "%~dp0.."
 
+echo "%~dp0..".
+
 git pull
 
 REM Создаем виртуальное окружение
@@ -15,8 +17,8 @@ REM Переходим в виртуальное окружение
 call .\venv\Scripts\activate
 
 REM Устанавливаем зависимости
-pip install requests selenium python-dotenv
+pip install pygetwindow pyautogui keyboard pyscreeze psutil opencv-python pytesseract apscheduler
 
 REM Завершаем выполнение
 echo success.
-exit
+pause

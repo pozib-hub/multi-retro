@@ -16,6 +16,3 @@ Thumbs.db
 
 # Файлы конфиденциальной информации
 *.env
-
-report_closes_by_error/
-report_reloads/
